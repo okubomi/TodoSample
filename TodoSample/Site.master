@@ -1,0 +1,40 @@
+﻿<%@ Master Language="VB" CodeFile="Site.master.vb" Inherits="Site" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title></title>
+
+    <link rel="stylesheet" href="style.css" />
+
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+
+        <header class="header">
+            <h2>ヘッダーライン</h2>
+        </header>
+
+        <main class="main-content">
+
+            <asp:ContentPlaceHolder id="MainContent" runat="server">
+
+        
+            </asp:ContentPlaceHolder>
+
+        </main>
+
+<%--        <footer class="footer">
+            <p>フッターライン</p>
+        </footer>--%>
+
+    </div>
+    </form>
+</body>
+</html>

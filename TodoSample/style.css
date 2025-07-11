@@ -1,0 +1,29 @@
+﻿/* 共通設定 */
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+/* ヘッダー */
+.header {
+    background-color: blue;
+    color: white;
+    text-align: center;
+    padding: 0.5em 0;
+}
+
+/* メインコンテンツ */
+.main-content {
+    padding: 1em;
+    min-height: 60vh;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+/* フッター */
+.footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+}
