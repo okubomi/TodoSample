@@ -8,7 +8,9 @@
     <title></title>
 </head>
 <body>
-    MyForm_V10
+    MyForm_V10ｃ
+    <hr />
+    ああああ
     <form id="form1" runat="server">
         <div>
         </div>
