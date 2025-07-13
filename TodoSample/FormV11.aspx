@@ -9,9 +9,6 @@
 </head>
 <body>
     Hello！　Win 11
-
-    add 123.
-    next add.
     <form id="form1" runat="server">
         <div>
         </div>
